@@ -1,0 +1,15 @@
+{
+  "name": "command_line_args_error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build:rolldown": "rolldown -c rollup.config.js --configLogLevel=silent --config_my_arg",
+    "build:rollup": "rollup -c rollup.config.js --configLogLevel=silent --config_my_arg"
+  },
+  "devDependencies": {
+    "rolldown": "^1.0.0-beta.35",
+    "rollup": "~4.50.1"
+  },
+  "private": true
+}
